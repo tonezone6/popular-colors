@@ -38,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		DB1F70712ACC876B0075BB41 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DB1F70722ACC8E580075BB41 /* simulator.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = simulator.gif; sourceTree = "<group>"; };
 		DB1FEA422AA71BEB00CC4182 /* Coordinator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Coordinator; sourceTree = "<group>"; };
 		DB1FEA462AA71C3200CC4182 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		DB1FEA472AA71C3200CC4182 /* NewColorCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewColorCoordinator.swift; sourceTree = "<group>"; };
@@ -139,8 +140,9 @@
 		DBF63FF52AA1DBF10098777A = {
 			isa = PBXGroup;
 			children = (
-				DB1F70712ACC876B0075BB41 /* README.md */,
 				DB1FEA422AA71BEB00CC4182 /* Coordinator */,
+				DB1F70722ACC8E580075BB41 /* simulator.gif */,
+				DB1F70712ACC876B0075BB41 /* README.md */,
 				DBF640002AA1DBF10098777A /* PopularColors */,
 				DBF6405A2AA221400098777A /* PopularColorsTests */,
 				DBF63FFF2AA1DBF10098777A /* Products */,
