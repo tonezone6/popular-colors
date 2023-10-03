@@ -26,9 +26,7 @@ public extension UINavigationBar {
       appearence.shadowColor = .clear
     }
     if let backSystemImage = backSystemImage {
-      let backImage = UIImage(systemName: backSystemImage)?
-        // .withAlignmentRectInsets(.init(top: 0, left: -10, bottom: 0, right: 0))
-        .withTintColor(tintColor ?? foregroundColor)
+      let backImage = UIImage(systemName: backSystemImage)?.withTintColor(tintColor ?? foregroundColor)
       appearence.setBackIndicatorImage(backImage, transitionMaskImage: backImage)
     }
     self.tintColor = tintColor
