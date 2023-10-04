@@ -11,9 +11,6 @@ public protocol AssociatedValue {
 
 extension AssociatedValue {
   public var value: Any? {
-    guard let child = Mirror(reflecting: self).children.first else {
-      return nil
-    }
-    return child.value
+    Mirror(reflecting: self).children.first?.value
   }
 }
